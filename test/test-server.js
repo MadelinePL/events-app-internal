@@ -1,6 +1,8 @@
+/*
 var chai = require('chai');
 const request = require('supertest');
 const app = require('../server');
+
 
 describe('GET /', function() {
     it('responds with json', function(done) {
@@ -53,7 +55,7 @@ describe('GET /', function() {
       });
   });
 
-/*  describe('POST /event', function() {
+ describe('POST /event', function() {
     it('adds an event', function(done) {
       request(app)
       .post('/event')
